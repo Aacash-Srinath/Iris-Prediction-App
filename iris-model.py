@@ -21,4 +21,4 @@ model.fit(X_train, Y_train)
 
 model.predict(X_test)
 
-joblib.dump(model, 'Iris-Prediction/DTC.pkl')
+joblib.dump(model, 'DTC.pkl')
