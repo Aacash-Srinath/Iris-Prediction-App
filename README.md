@@ -22,4 +22,25 @@
 > DTC = DecisionTreeClassifier(max_leaf_nodes=3, random_state=42)
 >  
 > DTC.fit(X_train, Y_train)
->  
+
+## 3. Decision Tree of the Given Dataset
+![download](https://github.com/Aacash-Srinath/Iris-Prediction-App/assets/100955640/7e629f7b-de39-4a72-9af0-ca38ebab59b7)
+
+## 4. Testing the Accuracy of the Model
+> Y_pred = DTC.predict(X_test)
+> 
+> accuracy = accuracy_score(Y_test, Y_pred) * 100
+>
+> print(f"Accuracy : {accuracy}")
+>  > ##### The model has an Accuracy of 97.37%
+
+
+
+
+
+
+
+
+
+
+
