@@ -32,7 +32,7 @@
 > accuracy = accuracy_score(Y_test, Y_pred) * 100
 >
 > print(f"Accuracy : {accuracy}")
->  > ##### The model has an Accuracy of 97.37%
+>  > ### The model has an Accuracy of 97.37%
 
 
 
